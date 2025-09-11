@@ -52,11 +52,12 @@ class _CompleteMembershipState extends State<CompleteMembership> {
       appBar: AppBar(
         backgroundColor: primaryColor,
         centerTitle: true,
+
         title: Text(
           '18'.tr,
           style: TextStyle(fontSize: 20, color: secondaryColor),
         ),
-        automaticallyImplyLeading: false,
+
       ),
       body: SingleChildScrollView(
         child: Padding(
